@@ -8,7 +8,7 @@
 
 ### La boite
 
-[video demo](demo.gif)
+![video demo](demo.gif)
 
 
 Pour modification la version 3D blender: [thebox.blend](thebox.blend)
