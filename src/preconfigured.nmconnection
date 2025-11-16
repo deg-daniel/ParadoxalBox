@@ -1,0 +1,17 @@
+[connection]
+id=preconfigured
+uuid=77023eba-0f30-44f0-be7b-f1bd46414532
+type=wifi
+[wifi]
+mode=infrastructure
+ssid=SSID_PLACEHOLDER
+hidden=true
+[ipv4]
+method=auto
+[ipv6]
+addr-gen-mode=default
+method=auto
+[proxy]
+[wifi-security]
+key-mgmt=wpa-psk
+psk=PSK_PLACEHOLDER

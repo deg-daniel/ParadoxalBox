@@ -1,0 +1,14 @@
+[Unit]
+Description=Surrealist Server Prompt
+After=network.target
+
+[Service]
+ExecStart=/bin/bash -c 'echo "$(date) : lancement du server"; /usr/bin/python3 -u /home/admin/server.py'
+WorkingDirectory=/home/admin/
+StandardOutput=journal
+StandardError=journal
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
