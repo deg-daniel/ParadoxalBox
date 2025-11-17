@@ -102,7 +102,7 @@ output = subprocess.check_output(
 for line in output.splitlines():
     if line.startswith("IP4.ADDRESS"):
         ip = line.split(":")[1].split("/")[0]
-ip = None
+
 if ip:
     #print("définir le wifi:")
     #print("wifi: ParadoxalBox")
