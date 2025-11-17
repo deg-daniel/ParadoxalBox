@@ -70,7 +70,7 @@ def run(action):
         time.sleep(3)
         k.stop()
     elif action == "up":
-        k.start(mode="wait")
+        k.start(mode="blink")
         print("button UP")
         time.sleep(3)
         k.stop()
